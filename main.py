@@ -1,7 +1,7 @@
 import math
 
 def func(a,b,c):
-    return math.sin(a*b*c)/(a*a+b*b+c*c)
+    return math.sin(a*b*c)**2/(a*a+b*b+c*c)
 
 def main():
     s = float(input('s= '))
